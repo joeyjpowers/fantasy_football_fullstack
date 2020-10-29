@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react'
 import React, { Component } from 'react'
-import Roster from './components/Roster';
+import Roster from './Roster';
+import { Link } from 'react-router-dom';
 
 class TeamView extends Component{
     state = {
@@ -64,15 +65,19 @@ class TeamView extends Component{
                 roster_slot: "DEF",
                 name: "Vikings",
                 team: "Vikings"
-              },
+              }
 
           ]
     }
     render() {
+      return (
         <div className="App">
-        <Header />
-        <Roster roster={this.state.team_roster}/>
-      </div>
+          <Roster roster={this.state.team_roster}/>
+          <Link to="/">
+            <p>Return to Home</p>  
+          </Link>
+        </div>
+      )
     }
 }
 

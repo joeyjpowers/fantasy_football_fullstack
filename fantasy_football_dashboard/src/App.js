@@ -2,32 +2,20 @@ import React, { Component } from 'react';
 import Teams from './components/Teams';
 import './App.css';
 import Header from './components/layout/Header';
+import { BrowserRouter, Route } from 'react-router-dom';
+import TeamView from './components/pages/TeamView';
 
 class App extends Component {
-  state = {
-    teams: [
-      {
-        id: 1,
-        name: "Red Solo Kupp",
-        platform: "NFL"
-      },
-      {
-        id: 2,
-        name: "Hooked on a Thielen",
-        platform: "ESPN"
-      },
-      {
-        id: 3,
-        name: "Scary Terry in the Kitchen",
-        platform: "Sleeper"
-      },
-    ]
-  }
+  
   render() {
     return (
       <div className="App">
         <Header />
-        <Teams teams={this.state.teams}/>
+        <BrowserRouter>
+          <Route path="/" exact component={ Teams } />
+          <Route path="/team" exact component={ TeamView } />
+        </BrowserRouter>
+        
       </div>
     );
   }
