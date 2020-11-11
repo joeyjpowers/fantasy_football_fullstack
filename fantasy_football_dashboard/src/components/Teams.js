@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 class Teams extends Component {
-    state = {
+
+    constructor(props) {
+      super(props)
+      this.state = {
         teams: [
           {
             id: 1,
@@ -191,11 +194,17 @@ class Teams extends Component {
           },
         ]
       }
+    }
 
     render() {
         return this.state.teams.map((team) => (
             <React.Fragment>
-                <Link to="/team">
+                <Link to={{
+                  pathname:"/team",
+                  state:{
+                    team: team.team_roster
+                  }
+                }}>
                     <h2 style={teamStyle}>Team Name: { team.name }</h2>
                 </Link>
                 <p>Platform: { team.platform }</p>

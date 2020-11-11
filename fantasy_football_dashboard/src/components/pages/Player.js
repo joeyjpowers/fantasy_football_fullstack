@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export default class Player extends Component {
     render() {
-        const { pos, roster_slot, name, team } = this.props.team_roster;
+        const { pos, roster_slot, name, team, roster } = this.props.team_roster;
         return (
             <div>
                 
