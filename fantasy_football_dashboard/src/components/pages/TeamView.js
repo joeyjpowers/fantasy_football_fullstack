@@ -15,9 +15,6 @@ class TeamView extends Component{
       return (
         <div className="App">
           <Roster roster={this.state.team}/>
-          <Link to="/">
-            <p>Return to Home</p>  
-          </Link>
         </div>
       )
     }
