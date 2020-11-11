@@ -20,10 +20,6 @@ const headerStyle = {
     padding: '10px'
 }
 
-const loginStyle = {
-    textAlign: 'right',
-    padingRight: '50px'
-}
 
 
 export default Header;

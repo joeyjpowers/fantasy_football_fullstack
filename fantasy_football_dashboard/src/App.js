@@ -14,8 +14,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <LoginReturn />
         <Header />
+        <LoginReturn />
         <BrowserRouter>
           <Route path="/" exact component={ Teams } />
           <Route path="/team" exact component={ TeamView } />
