@@ -20,28 +20,14 @@ class Teams extends Component {
                 team: "Bengals",
                 stats:[
                   {
-                    id:"100"
-                  },
-                  {
-                    pos:"QB"
-                  },
-                  {
+                    id:"100",
+                    pos:"QB",
                     passYards:"356",
-                  },
-                  {
-                    passTDs:"3"
-                  },
-                  {
-                    rushYards:"31"
-                  },
-                  {
+                    passTDs:"3",
+                    rushYards:"31",
                     rushTDs:"0",
-                  },
-                  {
-                    receivingYards:null,
-                  },
-                  {
-                    receivingTDs:null
+                    receivingYards:"0",
+                    receivingTDs:"0",
                   }
                 ]
               },
@@ -52,28 +38,14 @@ class Teams extends Component {
                 team: "Cowboys",
                 stats:[
                   {
-                    id:"110"
-                  },
-                  {
-                    pos:"RB"
-                  },
-                  {
-                    passYards:"356",
-                  },
-                  {
-                    passTDs:"3"
-                  },
-                  {
-                    rushYards:"31"
-                  },
-                  {
-                    rushTDs:"0",
-                  },
-                  {
-                    receivingYards:null,
-                  },
-                  {
-                    receivingTDs:null
+                    id:"110",
+                    pos:"RB",
+                    passYards:"0",
+                    passTDs:"0",
+                    rushYards:"87",
+                    rushTDs:"1",
+                    receivingYards:"22",
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -84,28 +56,14 @@ class Teams extends Component {
                 team: "Raiders",
                 stats:[
                   {
-                    id:"120"
-                  },
-                  {
-                    pos:"RB"
-                  },
-                  {
-                    passYards:"356",
-                  },
-                  {
-                    passTDs:"3"
-                  },
-                  {
-                    rushYards:"31"
-                  },
-                  {
+                    id:"120",
+                    pos:"RB",
+                    passYards:"0",
+                    passTDs:"0",
+                    rushYards:"121",
                     rushTDs:"0",
-                  },
-                  {
-                    receivingYards:null,
-                  },
-                  {
-                    receivingTDs:null
+                    receivingYards:"44",
+                    receivingTDs:"1"
                   }
                 ]
               },
@@ -134,10 +92,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -166,10 +124,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -198,10 +156,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -230,10 +188,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -262,10 +220,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -294,10 +252,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -326,10 +284,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 }
@@ -365,10 +323,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
                 },
@@ -397,10 +355,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -429,10 +387,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -461,10 +419,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -493,10 +451,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -525,10 +483,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -557,10 +515,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -589,10 +547,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 },
@@ -621,10 +579,10 @@ class Teams extends Component {
                       rushTDs:"0",
                     },
                     {
-                      receivingYards:null,
+                      receivingYards:"0",
                     },
                     {
-                      receivingTDs:null
+                      receivingTDs:"0"
                     }
                   ]
                 }
@@ -662,10 +620,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -694,10 +652,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -726,10 +684,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -758,10 +716,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -790,10 +748,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -822,10 +780,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -854,10 +812,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               },
@@ -886,10 +844,10 @@ class Teams extends Component {
                     rushTDs:"0",
                   },
                   {
-                    receivingYards:null,
+                    receivingYards:"0",
                   },
                   {
-                    receivingTDs:null
+                    receivingTDs:"0"
                   }
                 ]
               }
