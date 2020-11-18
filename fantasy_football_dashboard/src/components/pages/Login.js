@@ -14,6 +14,7 @@ export default class Login extends Component {
                         <h4>Password: </h4>
                         <input type="password" placeholder="Enter Password" name="password" style={{ width: '30%' }} required />
                     </label>
+                    <input type="submit" value="Submit" />
                 </form>
                 
             </div>
