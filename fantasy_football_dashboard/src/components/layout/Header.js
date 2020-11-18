@@ -6,8 +6,16 @@ function Header() {
     return (
         <div>
             <header style={headerStyle}>
-                
-                <h1>Fantasy Football Dashboard</h1>
+                <React.Fragment>
+                    <h1>Fantasy Football Dashboard</h1>
+                    <Link to="/login">
+                        <p>Login</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Return Home</p>
+                    </Link>
+                        
+                </React.Fragment>
             </header>
         </div>
     )
