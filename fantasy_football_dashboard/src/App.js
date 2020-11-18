@@ -4,7 +4,8 @@ import './App.css';
 import Header from './components/layout/Header';
 import { BrowserRouter, Route } from 'react-router-dom';
 import TeamView from './components/pages/TeamView';
-import Login from './components/pages/Login'
+import Login from './components/pages/Login';
+import CreateAccount from './components/pages/CreateAccount';
 
 class App extends Component {
   
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path="/" exact component={ Teams } />
           <Route path="/team" exact component={ TeamView } />
           <Route path="/login" exact component={ Login } />
+          <Route path="/createAccount" exact component={ CreateAccount } />
         </BrowserRouter>
       </div>
     );
