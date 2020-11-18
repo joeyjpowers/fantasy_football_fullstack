@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Team from './Team';
 import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
@@ -18,63 +17,323 @@ class Teams extends Component {
                 pos: "QB",
                 roster_slot: "QB",
                 name: "Joe Burrow",
-                team: "Bengals"
+                team: "Bengals",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "RB",
                 roster_slot: "RB",
                 name: "Ezekiel Elliot",
-                team: "Cowboys"
+                team: "Cowboys",
+                stats:[
+                  {
+                    id:"110"
+                  },
+                  {
+                    pos:"RB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "RB",
                 roster_slot: "RB",
                 name: "Josh Jacobs",
-                team: "Raiders"
+                team: "Raiders",
+                stats:[
+                  {
+                    id:"120"
+                  },
+                  {
+                    pos:"RB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                   pos: "WR",
                   roster_slot: "WR",
                   name: "Terry Mclaurin",
-                  team: "Football Team"
+                  team: "Football Team",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "WR",
                   roster_slot: "WR",
                   name: "Julio Jones",
-                  team: "Falcons"
+                  team: "Falcons",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "TE",
                   roster_slot: "TE",
                   name: "George Kittle",
-                  team: "49ers"
+                  team: "49ers",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "RB",
                   roster_slot: "W/R",
                   name: "Miles Sanders",
-                  team: "Eagles"
+                  team: "Eagles",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "WR",
                   roster_slot: "W/R",
                   name: "CeeDee Lamb",
-                  team: "Cowboys"
+                  team: "Cowboys",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "K",
                   roster_slot: "K",
                   name: "Younghoe Koo",
-                  team: "Falcons"
+                  team: "Falcons",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "DEF",
                   roster_slot: "DEF",
                   name: "Vikings",
-                  team: "Vikings"
+                  team: "Vikings",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 }
-            ]
+            ],
           },
           {
             id: 2,
@@ -85,58 +344,294 @@ class Teams extends Component {
                 pos: "QB",
                 roster_slot: "QB",
                 name: "Matt Ryan",
-                team: "Falcons"
+                team: "Falcons",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
                 },
                 {
                   pos: "RB",
                   roster_slot: "RB",
                   name: "Derrick Henry",
-                  team: "Titans"
+                  team: "Titans",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "RB",
                   roster_slot: "RB",
                   name: "Kareem Hunt",
-                  team: "Browns"
+                  team: "Browns",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "WR",
                   roster_slot: "WR",
                   name: "Julio Jones",
-                  team: "Falcons"
+                  team: "Falcons",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "WR",
                   roster_slot: "WR",
                   name: "Adam Thielen",
-                  team: "Vikings"
+                  team: "Vikings",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "TE",
                   roster_slot: "TE",
                   name: "Austin Hooper",
-                  team: "Browns"
+                  team: "Browns",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "WR",
                   roster_slot: "W/R",
                   name: "DK Metcalf",
-                  team: "Seahawks"
+                  team: "Seahawks",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "K",
                   roster_slot: "K",
                   name: "Daniel Carlson",
-                  team: "Raiders"
+                  team: "Raiders",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 },
                 {
                   pos: "DEF",
                   roster_slot: "DEF",
                   name: "Chiefs",
-                  team: "Chiefs"
+                  team: "Chiefs",
+                  stats:[
+                    {
+                      id:"100"
+                    },
+                    {
+                      pos:"QB"
+                    },
+                    {
+                      passYards:"356",
+                    },
+                    {
+                      passTDs:"3"
+                    },
+                    {
+                      rushYards:"31"
+                    },
+                    {
+                      rushTDs:"0",
+                    },
+                    {
+                      receivingYards:null,
+                    },
+                    {
+                      receivingTDs:null
+                    }
+                  ]
                 }
-            ]
+            ],
+            
           },
+          
           {
             id: 3,
             name: "Scary Terry in the Kitchen",
@@ -146,49 +641,257 @@ class Teams extends Component {
                 pos: "QB",
                 roster_slot: "QB",
                 name: "Jimmy Garropolo",
-                team: "49ers"
+                team: "49ers",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "RB",
                 roster_slot: "RB",
                 name: "James Conner",
-                team: "Steelers"
+                team: "Steelers",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "RB",
                 roster_slot: "RB",
                 name: "Dalvin Cook",
-                team: "Vikings"
+                team: "Vikings",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "WR",
                 roster_slot: "WR",
                 name: "Mike Evans",
-                team: "Bucaneers"
+                team: "Bucaneers",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "WR",
                 roster_slot: "WR",
                 name: "Terry Mclaurin",
-                team: "Football Team"
+                team: "Football Team",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "TE",
                 roster_slot: "TE",
                 name: "Mo Alie Cox",
-                team: "Colts"
+                team: "Colts",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "RB",
                 roster_slot: "W/R",
                 name: "Jonathan Taylor",
-                team: "Colts"
+                team: "Colts",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               },
               {
                 pos: "QB",
                 roster_slot: "WRTQ",
                 name: "Deshaun Watson",
-                team: "Texans"
+                team: "Texans",
+                stats:[
+                  {
+                    id:"100"
+                  },
+                  {
+                    pos:"QB"
+                  },
+                  {
+                    passYards:"356",
+                  },
+                  {
+                    passTDs:"3"
+                  },
+                  {
+                    rushYards:"31"
+                  },
+                  {
+                    rushTDs:"0",
+                  },
+                  {
+                    receivingYards:null,
+                  },
+                  {
+                    receivingTDs:null
+                  }
+                ]
               }
             ]
           },
