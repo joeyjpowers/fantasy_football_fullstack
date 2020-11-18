@@ -8,18 +8,20 @@ function Header() {
         <div>
             <header style={headerStyle}>
                 <React.Fragment>
-                    <h1>Fantasy Football Dashboard</h1>
                     <div style={linkStyle}>
-                        <Link to="/login">
-                            <p>Login</p>
-                        </Link>
-                        <Link to="/createAccount">
+                        <Link to="/createAccount" style={{ width: '30%', display: 'inline-block' }}>
                             <p>Create account</p>
                         </Link>
-                        <Link to="/">
-                            <p>Return Home</p>
+
+                        <Link to="/" style={{ width: '30%', display: 'inline-block' }}>
+                            <p>Home</p>
+                        </Link>
+                        
+                        <Link to="/login" style={{ display: 'inline-block', width: '30%'}}>
+                            <p>Login</p>
                         </Link>
                     </div>
+                    <h1 style={titleStyle}>Fantasy Football Dashboard</h1>
                         
                 </React.Fragment>
             </header>
@@ -30,12 +32,18 @@ function Header() {
 const headerStyle = {
     background: '#3c7bcf',
     color: '#fff',
+    padding: '10px',
     textAlign: 'center',
-    padding: '10px'
+}
+
+const titleStyle = {
+    
+    fontSize: '40px',
+    
 }
 
 const linkStyle = {
-    display: 'inline-block'
+    textTransform: 'uppercase',
 }
 
 
