@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class CreateAccount extends Component {
     render() {
@@ -22,7 +23,10 @@ export default class CreateAccount extends Component {
                     <br/>
                     <input type="submit" value="Submit" />
                 </form>
-                
+                <h4>Already have an account?</h4>
+                <Link to="/login">
+                    <p>Login</p>
+                </Link>
                 
             </div>
         )
