@@ -74,28 +74,14 @@ class Teams extends Component {
                   team: "Football Team",
                   stats:[
                     {
-                      id:"100"
-                    },
-                    {
-                      pos:"QB"
-                    },
-                    {
-                      passYards:"356",
-                    },
-                    {
-                      passTDs:"3"
-                    },
-                    {
-                      rushYards:"31"
-                    },
-                    {
+                      id:"210",
+                      pos:"WR",
+                      passYards:"0",
+                      passTDs:"0",
+                      rushYards:"0",
                       rushTDs:"0",
-                    },
-                    {
-                      receivingYards:"0",
-                    },
-                    {
-                      receivingTDs:"0"
+                      receivingYards:"89",
+                      receivingTDs:"1"
                     }
                   ]
                 },
